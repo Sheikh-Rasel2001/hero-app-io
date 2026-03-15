@@ -1,0 +1,7 @@
+.btn-bg{
+    background: linear-gradient(to right, #632EE3, #9F62F2);
+}
+.active{
+    text-decoration: underline;
+    color: #632EE3;
+}
