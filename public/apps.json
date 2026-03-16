@@ -1,0 +1,364 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/zVFw1Cr2/task.webp",
+    "title": "Task Manager Pro",
+    "companyName": "TechNova",
+    "description": "Task Manager Pro is a powerful productivity application designed to help users organize their daily work and manage tasks efficiently. The app provides an intuitive interface where you can create task lists, set deadlines, add reminders, and track the progress of your work. It is ideal for students, professionals, and teams who want to stay productive and keep their responsibilities organized in one place.\n\nThe application also includes features like task prioritization, smart notifications, and category grouping so you can focus on what matters most. With its clean design and smooth performance, Task Manager Pro helps you avoid missed deadlines and manage multiple projects easily. Whether you are planning daily goals or managing long-term projects, this app keeps everything structured and easy to follow.",
+    "size": 45,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": 5,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 620 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/twY6CXL9/photo-editor.webp",
+    "title": "Photo Editor Plus",
+    "companyName": "PixelSoft",
+    "description": "Photo Editor Plus is a feature-rich image editing application designed to enhance photos quickly and professionally. The app provides powerful editing tools including brightness control, color correction, cropping, and a wide collection of filters. Its user-friendly design allows both beginners and experienced users to transform ordinary pictures into visually impressive images within seconds.\n\nIn addition to basic editing, the app offers creative tools like overlays, frames, and artistic effects that help bring unique styles to your photos. Users can easily prepare pictures for social media, portfolios, or personal albums. With fast performance and high-quality results, Photo Editor Plus gives you the flexibility to create stunning visuals without needing complicated design software.",
+    "size": 60,
+    "reviews": 980,
+    "ratingAvg": 4.3,
+    "downloads": 4.2,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 435 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/kgXzbBKw/Code-Studio.webp",
+    "title": "Code Studio",
+    "companyName": "DevTools",
+    "description": "Code Studio is a modern development environment designed to provide programmers with a fast and efficient coding experience. The application supports multiple programming languages and offers essential features such as syntax highlighting, auto-completion, error detection, and integrated debugging tools. Its clean and distraction-free interface allows developers to focus entirely on writing high-quality code.\n\nThe editor also supports customizable themes, keyboard shortcuts, and plugin extensions that enhance productivity and workflow. Developers can easily manage large projects, organize files, and test their applications within the same environment. Whether you are learning programming or building complex software, Code Studio provides the tools needed for efficient and organized development.",
+    "size": 80,
+    "reviews": 2000,
+    "ratingAvg": 4.7,
+    "downloads": 9.1,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1130 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/d0QSthhP/Weather-Now.webp",
+    "title": "Weather Now",
+    "companyName": "SkyTech",
+    "description": "Weather Now is a reliable weather forecasting application that provides accurate and real-time weather updates from around the world. Users can quickly check temperature, humidity, wind speed, and weather conditions through a clean and easy-to-read interface. The app is designed to help you stay informed about daily weather changes so you can plan your day accordingly.\n\nThe application also offers detailed forecasts, hourly updates, and severe weather alerts that notify users about sudden climate changes. With its lightweight design and fast performance, Weather Now ensures you receive important weather information without delays. Whether you are planning travel, outdoor activities, or daily routines, the app keeps you prepared for changing weather conditions.",
+    "size": 30,
+    "reviews": 700,
+    "ratingAvg": 4.1,
+    "downloads": 3.6,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 230 },
+      { "name": "5 star", "count": 210 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/01v3Cvd/Fitness-Tracker.webp",
+    "title": "Fitness Tracker",
+    "companyName": "Healthify",
+    "description": "Fitness Tracker is a comprehensive health application that helps users monitor workouts, physical activity, and overall fitness progress. The app allows you to track steps, calories burned, workout sessions, and daily exercise routines. It is designed to motivate users to stay active and maintain a healthy lifestyle through simple tracking tools.\n\nIn addition to activity monitoring, the app also provides personalized fitness goals and progress reports that help you stay consistent. With reminders, workout suggestions, and performance analytics, users can improve their physical fitness over time. Fitness Tracker is ideal for anyone who wants to stay motivated, build healthy habits, and achieve their fitness goals effectively.",
+    "size": 50,
+    "reviews": 1500,
+    "ratingAvg": 4.6,
+    "downloads": 7.3,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 720 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/vxhNyk7d/x-music.webp",
+    "title": "Music Player X",
+    "companyName": "SoundWave",
+    "description": "Music Player X is a modern music streaming and playback application designed for people who enjoy high quality sound and a smooth listening experience. The app supports multiple audio formats and allows users to organize songs into playlists, albums, and favorite collections. Its elegant interface makes it easy to browse music libraries and quickly find the songs you love.\n\nThe application also includes advanced audio controls, equalizer settings, and background playback that enhance your overall listening experience. Users can customize playlists, discover new tracks, and enjoy uninterrupted music while working, studying, or relaxing. Music Player X combines performance and simplicity to deliver a powerful music experience on any device.",
+    "size": 55,
+    "reviews": 1100,
+    "ratingAvg": 4.4,
+    "downloads": 6.5,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 500 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/W4Wtt46h/Team-Chat.webp",
+    "title": "Team Chat",
+    "companyName": "ConnectHub",
+    "description": "Team Chat is a communication platform designed to help teams collaborate efficiently and stay connected throughout the workday. The application allows users to send messages, share files, and create group discussions for projects or departments. Its clean and simple interface ensures that conversations remain organized and easy to follow.\n\nThe platform also includes features such as real-time notifications, channel organization, and secure messaging for professional communication. Whether you are working remotely or in an office environment, Team Chat helps improve collaboration and productivity. By bringing conversations, files, and updates into one place, the app makes teamwork faster and more effective.",
+    "size": 40,
+    "reviews": 860,
+    "ratingAvg": 4.2,
+    "downloads": 3.8,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 55 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 280 },
+      { "name": "5 star", "count": 380 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/JWhFB6xH/Travel-Guide.webp",
+    "title": "Travel Guide",
+    "companyName": "ExploreWorld",
+    "description": "Travel Guide is a helpful application designed for travelers who want to explore new destinations and plan their trips easily. The app provides information about tourist attractions, local culture, transportation, and travel tips. Its intuitive interface allows users to browse destinations, read travel recommendations, and organize their journey step by step.\n\nIn addition to travel planning, the app also offers maps, suggested itineraries, and helpful insights from experienced travelers. Users can discover hidden attractions, save favorite locations, and prepare their trips more efficiently. Travel Guide helps make every journey smoother and more enjoyable by providing useful information in one convenient place.",
+    "size": 70,
+    "reviews": 920,
+    "ratingAvg": 4.3,
+    "downloads": 4.5,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 360 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co.com/PsrrqndM/Note-Keeper.webp",
+    "title": "Note Keeper",
+    "companyName": "QuickSoft",
+    "description": "Note Keeper is a simple yet powerful note taking application designed to help users capture ideas, reminders, and important information quickly. The app allows you to create notes, organize them into categories, and search through your content easily. Its lightweight design makes it fast and convenient for everyday use.\n\nThe application also includes features such as note pinning, color labeling, and cloud synchronization so your notes remain safe and accessible from multiple devices. Whether you are writing study notes, saving ideas, or planning tasks, Note Keeper helps you keep everything organized. It is a practical tool for students, professionals, and anyone who needs a reliable digital notebook.",
+    "size": 25,
+    "reviews": 540,
+    "ratingAvg": 4.0,
+    "downloads": 2.6,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 160 },
+      { "name": "5 star", "count": 160 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co.com/XxfrdWwJ/Budget-Planner.webp",
+    "title": "Budget Planner",
+    "companyName": "FinanceMate",
+    "description": "Budget Planner is a financial management application designed to help users track their income, expenses, and savings in a simple and organized way. The app allows you to create financial categories, record transactions, and monitor spending patterns. Its clean dashboard makes it easy to understand where your money goes each month.\n\nThe application also provides financial reports, budgeting goals, and spending alerts to help users maintain better control over their finances. By analyzing your spending habits, Budget Planner encourages smarter financial decisions and long-term savings. Whether you are managing personal expenses or planning monthly budgets, this app helps you stay financially organized.",
+    "size": 48,
+    "reviews": 780,
+    "ratingAvg": 4.2,
+    "downloads": 3.5,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 290 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co.com/c52MH8K/Study-Planner.webp",
+    "title": "Study Planner",
+    "companyName": "EduSmart",
+    "description": "Study Planner is a helpful learning companion designed for students who want to organize their study schedules more effectively. The application allows users to create subject-based study plans, set reminders for assignments, and track daily learning goals. Its clean interface helps students focus on their priorities and avoid missing deadlines.\n\nThe app also includes progress tracking tools that show how much time you spend studying different subjects. With smart notifications and customizable schedules, students can develop consistent study habits and stay motivated. Whether you are preparing for exams or managing daily homework, Study Planner helps keep your academic routine structured and organized.",
+    "size": 35,
+    "reviews": 630,
+    "ratingAvg": 4.3,
+    "downloads": 2.9,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 220 },
+      { "name": "5 star", "count": 230 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co.com/XZTG3y66/Restaurant-Finder.webp",
+    "title": "Restaurant Finder",
+    "companyName": "FoodMap",
+    "description": "Restaurant Finder is a convenient application that helps users discover nearby restaurants, cafes, and food spots quickly. The app provides location-based recommendations along with menus, ratings, and reviews from other users. Its simple design makes it easy to search for places to eat whether you are traveling or exploring your own city.\n\nThe application also allows users to filter restaurants by cuisine type, price range, and popularity. With integrated maps and directions, you can easily navigate to your chosen restaurant without confusion. Restaurant Finder makes dining decisions easier by providing reliable information and helping you discover new places to enjoy great food.",
+    "size": 52,
+    "reviews": 890,
+    "ratingAvg": 4.4,
+    "downloads": 4.1,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 170 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 345 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://i.ibb.co.com/d0Zfc7BL/PDF-Reader.webp",
+    "title": "PDF Reader",
+    "companyName": "DocuView",
+    "description": "PDF Reader is a lightweight document viewing application designed to open and manage PDF files quickly and efficiently. The app provides smooth scrolling, zoom features, and easy navigation between pages, allowing users to read documents comfortably on any device. Its clean layout ensures that the reading experience remains distraction free.\n\nIn addition to basic reading tools, the app also offers highlighting, bookmarking, and quick search features that make it easier to locate important information. Users can manage multiple documents, organize files, and continue reading from where they left off. PDF Reader is ideal for students, professionals, and anyone who regularly works with digital documents.",
+    "size": 40,
+    "reviews": 720,
+    "ratingAvg": 4.1,
+    "downloads": 3.3,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 230 },
+      { "name": "5 star", "count": 245 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://i.ibb.co.com/MD26PfL8/Project-Board.webp",
+    "title": "Project Board",
+    "companyName": "AgileWorks",
+    "description": "Project Board is a collaborative project management application that helps teams organize tasks and track project progress efficiently. The app uses a visual board system where tasks can be moved between stages such as planning, development, and completion. This structure helps teams understand the workflow clearly and stay aligned with project goals.\n\nThe application also includes task assignments, deadline tracking, and progress updates so that every team member remains informed about project activities. With its intuitive design and flexible task organization, Project Board improves productivity and communication within teams. It is an excellent solution for startups, freelancers, and companies managing multiple projects.",
+    "size": 65,
+    "reviews": 1100,
+    "ratingAvg": 4.6,
+    "downloads": 6.7,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 475 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://i.ibb.co.com/dsk7qzYp/code-snippets.webp",
+    "title": "Code Snippets",
+    "companyName": "DevHub",
+    "description": "Code Snippets is a developer friendly tool designed to help programmers store and organize useful pieces of code. The application allows users to save frequently used functions, commands, and templates in a structured format. This helps developers quickly access important code without rewriting it repeatedly.\n\nThe app also supports tagging, searching, and categorizing snippets so that large collections remain easy to manage. Whether you are working on web development, automation scripts, or learning new programming languages, Code Snippets keeps your most valuable code resources organized. It improves productivity by making reusable code accessible whenever you need it.",
+    "size": 28,
+    "reviews": 460,
+    "ratingAvg": 4.0,
+    "downloads": 2.1,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 150 },
+      { "name": "5 star", "count": 140 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://i.ibb.co.com/1YN6vdHL/Meditation-Guide.webp",
+    "title": "Meditation Guide",
+    "companyName": "ZenLife",
+    "description": "Meditation Guide is a wellness application designed to help users relax, reduce stress, and improve mental clarity through guided meditation sessions. The app offers a variety of meditation programs suitable for beginners as well as experienced users. Each session is designed to help users focus on breathing, mindfulness, and inner calm.\n\nIn addition to guided sessions, the app also includes relaxing background sounds, sleep meditation tracks, and daily mindfulness reminders. Users can build healthy mental habits and gradually improve their concentration and emotional balance. Meditation Guide is ideal for anyone who wants to improve their mental well-being and create a peaceful daily routine.",
+    "size": 38,
+    "reviews": 980,
+    "ratingAvg": 4.7,
+    "downloads": 5.4,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 340 },
+      { "name": "5 star", "count": 490 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://i.ibb.co.com/svjnwdTy/Design-Studio.webp",
+    "title": "Design Studio",
+    "companyName": "CreativeLab",
+    "description": "Design Studio is a creative application that allows users to design graphics, posters, and digital artwork with ease. The app provides a variety of design tools, templates, fonts, and color palettes that help users create professional-looking visuals without advanced design skills. Its intuitive interface makes graphic design simple and enjoyable.\n\nUsers can create social media graphics, promotional banners, presentations, and personal artwork using the built-in creative tools. The application also allows easy exporting and sharing of finished designs. Design Studio is ideal for content creators, marketers, and students who want to produce high quality visual content quickly.",
+    "size": 75,
+    "reviews": 1320,
+    "ratingAvg": 4.5,
+    "downloads": 6.8,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 620 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://i.ibb.co.com/qMLvGdCw/News-Daily.webp",
+    "title": "News Daily",
+    "companyName": "InfoMedia",
+    "description": "News Daily is a fast and reliable news application that keeps users informed about the latest events from around the world. The app gathers news from multiple trusted sources and organizes them into categories such as technology, business, sports, and global news. Its simple layout makes browsing headlines quick and convenient.\n\nUsers can personalize their news feed by selecting topics that match their interests. The app also provides breaking news alerts so that important updates are delivered instantly. With regular updates and easy navigation, News Daily helps users stay connected with current events anytime and anywhere.",
+    "size": 32,
+    "reviews": 560,
+    "ratingAvg": 4.1,
+    "downloads": 2.7,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 170 },
+      { "name": "5 star", "count": 170 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://i.ibb.co.com/7N6JM0qC/Workout-Trainer.webp",
+    "title": "Workout Trainer",
+    "companyName": "FitBoost",
+    "description": "Workout Trainer is a fitness coaching application designed to guide users through effective exercise routines. The app includes a variety of workouts for strength training, cardio, and flexibility. Each exercise includes step-by-step instructions and visual demonstrations to help users perform movements correctly.\n\nThe app also provides personalized workout plans based on your fitness level and goals. Users can track their progress, monitor calories burned, and stay motivated with regular reminders. Workout Trainer is a great tool for people who want to build healthy exercise habits and improve their physical fitness over time.",
+    "size": 58,
+    "reviews": 1040,
+    "ratingAvg": 4.4,
+    "downloads": 5.2,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 360 },
+      { "name": "5 star", "count": 430 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://i.ibb.co.com/HpNZbd6v/Money-Tracker.webp",
+    "title": "Money Tracker",
+    "companyName": "SmartFinance",
+    "description": "Money Tracker is a personal finance management application that helps users monitor income, expenses, and savings in an organized way. The app allows you to record daily transactions, categorize spending, and view financial summaries through simple dashboards. This helps users understand their spending habits and manage money more responsibly.\n\nThe application also includes budgeting tools, expense alerts, and financial reports that help users stay within their monthly budgets. With its simple and practical design, Money Tracker makes personal finance easier to manage. It is a useful tool for anyone who wants better control over their financial life.",
+    "size": 46,
+    "reviews": 820,
+    "ratingAvg": 4.3,
+    "downloads": 3.9,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 280 },
+      { "name": "5 star", "count": 310 }
+    ]
+  }
+]
+
+

@@ -31,7 +31,10 @@ const Banner = () => {
                 <div className='max-w-2xl mx-auto px-4'>
                     <img src={heroImage} alt="Hero image" className='w-full'/>
                 </div>
-                <BuiltApps></BuiltApps>
+                {/* built apps */}
+                <div className='mb-10'>
+                    <BuiltApps></BuiltApps>
+                </div>
             </div>
         </div>
     );
