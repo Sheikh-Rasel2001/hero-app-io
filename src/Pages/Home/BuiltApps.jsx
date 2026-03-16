@@ -6,7 +6,7 @@ const BuiltApps = () => {
         <div className=' bg-apps'>
             <div className='max-w-2xl mx-auto py-10 px-4'>
                 <h3 className='text-center text-3xl font-bold text-white mb-8'>Trusted by Millions, Built for You</h3>
-                <div className='grid grid-cols-1 lg:grid-cols-3 gap-6'>
+                <div className='grid grid-cols-3 gap-4'>
                     <div>
                         <h5 className='mb-2 text-xs text-gray-400'>Total Downloads</h5>
                         <h1 className='text-4xl lg:text-5xl font-bold mb-2 text-white'>29.6M</h1>

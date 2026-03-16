@@ -39,7 +39,7 @@ const Footer = () => {
             </div>
             {/* terms and conditions */}
             <div className='max-w-6xl mx-auto py-8 px-10 flex justify-between items-center flex-col lg:flex-row gap-3'>
-                <div className='text-gray-200 flex justify-center gap-3 flex-col lg:flex-row'>
+                <div className='text-gray-200 flex justify-center gap-3 flex-wrap lg:flex-row'>
                     <Link className='text-sm' to='/'>Terms of Service</Link>
                     <Link className='text-sm' to='/'>Privacy</Link>
                     <Link className='text-sm' to='/'>About Hero Play</Link>
@@ -48,7 +48,7 @@ const Footer = () => {
                 </div>
                 {/* copyright */}
                 <div className='text-gray-400'>
-                    <p className='flex items-center gap-1'><FaRegCopyright />{new Date().getFullYear()} Hero App Store. All rights reserved.</p>
+                    <p className='flex items-center text-sm'><FaRegCopyright />{new Date().getFullYear()} Hero App Store. All rights reserved.</p>
                 </div>
 
             </div>

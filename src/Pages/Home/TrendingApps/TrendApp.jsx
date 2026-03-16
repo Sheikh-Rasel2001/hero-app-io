@@ -3,8 +3,8 @@ import downloadIcon from '../../../assets/icon-downloads.png'
 import rattingIcon from '../../../assets/icon-ratings.png'
 
 const TrendApp = ({app}) => {
-    console.log(app);
-    const {image, title, ratingAvg, downloads} = app
+    // console.log(app);
+    const {image, title, ratingAvg, downloads} = app;
     return (
         <div className='bg-white border-gray-200 hover:shadow-xl p-4 rounded-lg space-y-4'>
             <div className='w-full rounded-lg'>

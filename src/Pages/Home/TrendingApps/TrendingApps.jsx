@@ -4,7 +4,7 @@ import './Trend.css';
 
 const TrendingApps = ({appsPromise}) => {
     const apps = use(appsPromise);
-    console.log(apps);
+    // console.log(apps);
     const homeApps = apps.slice(0, 8);
     return (
         <div className='max-w-5xl mx-auto mb-10'>
