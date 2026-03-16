@@ -7,8 +7,8 @@ const TrendApp = ({app}) => {
     const {image, title, ratingAvg, downloads} = app
     return (
         <div className='bg-white border-gray-200 hover:shadow-xl p-4 rounded-lg space-y-4'>
-            <div className='w-full h-40 bg-gray-400 rounded-lg'>
-                <img src={image} alt={title} className='w-full h-full object-cover rounded-lg'/>
+            <div className='w-full rounded-lg'>
+                <img src={image} alt={title} className='w-full object-cover rounded-xl'/>
             </div>
             <div className='space-y-4'>
                 <h3 className='text-[#001931] font-semibold'>{title}</h3>
