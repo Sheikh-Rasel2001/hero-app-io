@@ -4,9 +4,9 @@ import Navbar from '../Component/Header/Navbar';
 
 const Root = () => {
     return (
-        <div>
+        <div className='roboto-condensed'>
             <Navbar></Navbar>
-            <div className='pt-20'>
+            <div className='pt-20 max-w-11/12 mx-auto'>
                 <Outlet></Outlet>
             </div>
         </div>

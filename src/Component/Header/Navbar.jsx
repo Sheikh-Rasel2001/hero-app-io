@@ -3,8 +3,6 @@ import image from '../../assets/logo.png'
 import { Link, NavLink } from 'react-router';
 import { FaBars, FaGithub } from "react-icons/fa";
 import { ImCross } from "react-icons/im";
-
-
 import './Navbar.css'
 
 const Navbar = () => {
@@ -16,7 +14,7 @@ const Navbar = () => {
                 <Link to='/'>
                 <div className='flex gap-1 items-center'>
                     <img src={image} alt="Hero App" className='w-10 h-10 object-cover' />
-                        <h3 className='text-xl font-bold text-[#632EE3]'>Hero.AppStore</h3>
+                        <h3 className='text-xl font-bold text-bg'>Hero.AppStore</h3>
                 </div>
                  </Link>
 
@@ -29,8 +27,8 @@ const Navbar = () => {
 
                 {/* github link button */}
                 <div>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                        <button className='hidden lg:flex lg:items-center lg:gap-1 px-4 pt-2 pb-2 text-white text-lg btn-bg rounded-lg font-semibold'><FaGithub />Contribute</button>
+                    <a href="https://github.com/Sheikh-Rasel2001" target="_blank" rel="noopener noreferrer" className=''>
+                        <button className='hidden lg:flex lg:items-center lg:gap-1 px-4 pt-2 pb-2 text-white text-lg btn-bg rounded-lg font-semibold cursor-pointer'><FaGithub />Contribute</button>
                     </a>
                 </div>
 
@@ -47,7 +45,7 @@ const Navbar = () => {
                     <NavLink onClick={() => setShowMenu(false)} to='/'>Home</NavLink>
                     <NavLink onClick={() => setShowMenu(false)} to='/apps'>Apps</NavLink>
                     <NavLink onClick={() => setShowMenu(false)} to='/installs'>Installation</NavLink>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/Sheikh-Rasel2001" target="_blank" rel="noopener noreferrer">
                         <button className='flex items-center gap-1 px-4 pt-2 pb-2 text-white text-lg btn-bg rounded-lg font-semibold'><FaGithub />Contribute</button>
                     </a>
                 </div>
