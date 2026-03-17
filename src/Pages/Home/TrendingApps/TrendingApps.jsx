@@ -1,6 +1,4 @@
 import React, { use } from 'react';
-import TrendApp from './TrendApp';
-import './Trend.css';
 import { Link } from 'react-router';
 import AppCard from '../../Apps/AppCard/AppCard';
 
@@ -20,7 +18,7 @@ const TrendingApps = ({ promiseApps }) => {
                 }
             </div>
             <div className='mt-10 flex justify-center items-center'>
-                <Link to='/'>
+                <Link to='/apps'>
                     <button className='btn-bg px-5 py-2 text-white font-semibold rounded-lg cursor-pointer'>Show All</button>
                 </Link>
             </div>

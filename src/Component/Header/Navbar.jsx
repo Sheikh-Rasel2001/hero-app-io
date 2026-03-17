@@ -3,7 +3,7 @@ import image from '../../assets/logo.png'
 import { Link, NavLink } from 'react-router';
 import { FaBars, FaGithub } from "react-icons/fa";
 import { ImCross } from "react-icons/im";
-import './Navbar.css'
+
 
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false);

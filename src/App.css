@@ -9,3 +9,18 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+.btn-bg{
+    background: linear-gradient(to right, #632EE3, #9F62F2);
+}
+.active{
+    text-decoration: underline;
+    background: linear-gradient(to right, #632EE3, #9F62F2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text-bg {
+    background: linear-gradient(to right, #632EE3, #9F62F2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

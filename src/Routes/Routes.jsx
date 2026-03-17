@@ -6,6 +6,7 @@ import Apps from '../Pages/Apps/Apps';
 import Installs from '../Pages/Installs/Installs';
 import ErrorPage from '../Pages/ErrorPage/ErrorPage';
 import logoIcon from '../assets/logo.png';
+import AppDetails from '../Pages/AppDetails/AppDetails';
 
 const promiseApps = fetch('/apps.json').then(res => res.json());
 
@@ -44,6 +45,11 @@ export const router = createBrowserRouter([
             {
                 path: 'installs',
                 element: <Installs></Installs>
+            },
+            {
+                path: 'appDetails/:id',
+                loader: () => fetch('/apps.json'),
+                element: <AppDetails></AppDetails>
             }
         ]
     }

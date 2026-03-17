@@ -6,7 +6,7 @@
     "companyName": "TechNova",
     "description": "Task Manager Pro is a powerful productivity application designed to help users organize their daily work and manage tasks efficiently. The app provides an intuitive interface where you can create task lists, set deadlines, add reminders, and track the progress of your work. It is ideal for students, professionals, and teams who want to stay productive and keep their responsibilities organized in one place.\n\nThe application also includes features like task prioritization, smart notifications, and category grouping so you can focus on what matters most. With its clean design and smooth performance, Task Manager Pro helps you avoid missed deadlines and manage multiple projects easily. Whether you are planning daily goals or managing long-term projects, this app keeps everything structured and easy to follow.",
     "size": 45,
-    "reviews": 1200,
+    "reviews": 120,
     "ratingAvg": 4.5,
     "downloads": 5,
     "ratings": [
@@ -42,7 +42,7 @@
     "companyName": "DevTools",
     "description": "Code Studio is a modern development environment designed to provide programmers with a fast and efficient coding experience. The application supports multiple programming languages and offers essential features such as syntax highlighting, auto-completion, error detection, and integrated debugging tools. Its clean and distraction-free interface allows developers to focus entirely on writing high-quality code.\n\nThe editor also supports customizable themes, keyboard shortcuts, and plugin extensions that enhance productivity and workflow. Developers can easily manage large projects, organize files, and test their applications within the same environment. Whether you are learning programming or building complex software, Code Studio provides the tools needed for efficient and organized development.",
     "size": 80,
-    "reviews": 2000,
+    "reviews": 200,
     "ratingAvg": 4.7,
     "downloads": 9.1,
     "ratings": [
@@ -78,7 +78,7 @@
     "companyName": "Healthify",
     "description": "Fitness Tracker is a comprehensive health application that helps users monitor workouts, physical activity, and overall fitness progress. The app allows you to track steps, calories burned, workout sessions, and daily exercise routines. It is designed to motivate users to stay active and maintain a healthy lifestyle through simple tracking tools.\n\nIn addition to activity monitoring, the app also provides personalized fitness goals and progress reports that help you stay consistent. With reminders, workout suggestions, and performance analytics, users can improve their physical fitness over time. Fitness Tracker is ideal for anyone who wants to stay motivated, build healthy habits, and achieve their fitness goals effectively.",
     "size": 50,
-    "reviews": 1500,
+    "reviews": 150,
     "ratingAvg": 4.6,
     "downloads": 7.3,
     "ratings": [
@@ -96,7 +96,7 @@
     "companyName": "SoundWave",
     "description": "Music Player X is a modern music streaming and playback application designed for people who enjoy high quality sound and a smooth listening experience. The app supports multiple audio formats and allows users to organize songs into playlists, albums, and favorite collections. Its elegant interface makes it easy to browse music libraries and quickly find the songs you love.\n\nThe application also includes advanced audio controls, equalizer settings, and background playback that enhance your overall listening experience. Users can customize playlists, discover new tracks, and enjoy uninterrupted music while working, studying, or relaxing. Music Player X combines performance and simplicity to deliver a powerful music experience on any device.",
     "size": 55,
-    "reviews": 1100,
+    "reviews": 110,
     "ratingAvg": 4.4,
     "downloads": 6.5,
     "ratings": [
@@ -240,7 +240,7 @@
     "companyName": "AgileWorks",
     "description": "Project Board is a collaborative project management application that helps teams organize tasks and track project progress efficiently. The app uses a visual board system where tasks can be moved between stages such as planning, development, and completion. This structure helps teams understand the workflow clearly and stay aligned with project goals.\n\nThe application also includes task assignments, deadline tracking, and progress updates so that every team member remains informed about project activities. With its intuitive design and flexible task organization, Project Board improves productivity and communication within teams. It is an excellent solution for startups, freelancers, and companies managing multiple projects.",
     "size": 65,
-    "reviews": 1100,
+    "reviews": 110,
     "ratingAvg": 4.6,
     "downloads": 6.7,
     "ratings": [
@@ -294,7 +294,7 @@
     "companyName": "CreativeLab",
     "description": "Design Studio is a creative application that allows users to design graphics, posters, and digital artwork with ease. The app provides a variety of design tools, templates, fonts, and color palettes that help users create professional-looking visuals without advanced design skills. Its intuitive interface makes graphic design simple and enjoyable.\n\nUsers can create social media graphics, promotional banners, presentations, and personal artwork using the built-in creative tools. The application also allows easy exporting and sharing of finished designs. Design Studio is ideal for content creators, marketers, and students who want to produce high quality visual content quickly.",
     "size": 75,
-    "reviews": 1320,
+    "reviews": 132,
     "ratingAvg": 4.5,
     "downloads": 6.8,
     "ratings": [
@@ -330,7 +330,7 @@
     "companyName": "FitBoost",
     "description": "Workout Trainer is a fitness coaching application designed to guide users through effective exercise routines. The app includes a variety of workouts for strength training, cardio, and flexibility. Each exercise includes step-by-step instructions and visual demonstrations to help users perform movements correctly.\n\nThe app also provides personalized workout plans based on your fitness level and goals. Users can track their progress, monitor calories burned, and stay motivated with regular reminders. Workout Trainer is a great tool for people who want to build healthy exercise habits and improve their physical fitness over time.",
     "size": 58,
-    "reviews": 1040,
+    "reviews": 104,
     "ratingAvg": 4.4,
     "downloads": 5.2,
     "ratings": [

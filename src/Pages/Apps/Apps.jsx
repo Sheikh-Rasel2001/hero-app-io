@@ -2,7 +2,6 @@ import React, { use, useState } from 'react';
 import { CiSearch } from "react-icons/ci";
 import AppCard from './AppCard/AppCard';
 import SearchError from './AppCard/SearchError';
-import { DiVim } from 'react-icons/di';
 
 const Apps = ({ promiseApps }) => {
     const [search, setSearch] = useState('');

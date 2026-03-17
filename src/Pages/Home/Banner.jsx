@@ -1,5 +1,4 @@
 import React from 'react';
-import './Banner.css';
 import imagePlay from '../../assets/fi_16076057.png';
 import imageApp from '../../assets/fi_5977575.png';
 import heroImage from '../../assets/hero.png';
