@@ -2,11 +2,11 @@
 import './App.css'
 import Home from './Pages/Home/Home'
 
-function App() {
+function App({promiseApps}) {
 
   return (
    <>
-   <Home></Home>
+   <Home promiseApps={promiseApps}></Home>
    </>
   )
 }

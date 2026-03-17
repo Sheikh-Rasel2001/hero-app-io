@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { use } from 'react';
 import { CiSearch } from "react-icons/ci";
-import AppCard from './appCard';
+import AppCard from './AppCard/AppCard';
 
-
-const Apps = () => {
+const Apps = ({promiseApps}) => {
+    const allApps = use(promiseApps);
     return (
         <div className='max-w-6xl mx-auto'>
             <div className='text-center my-8'>
@@ -13,7 +13,7 @@ const Apps = () => {
             {/* search button */}
             <div className='flex flex-col-reverse lg:justify-between items-center lg:flex-row mb-6'>
                 <div>
-                    <p>(212) App Found</p>
+                    <p>({allApps.length}) App Found</p>
                 </div>
                 <div className='relative'>
                     <input type="search" name="search" placeholder='Search Apps' className='border rounded-lg py-1 pl-8' />
@@ -21,8 +21,10 @@ const Apps = () => {
                 </div>
             </div>
             {/* all apps */}
-            <div className='grid grid-cols-1 lg:grid-cols-4 gap-4 px-4'>
-                
+            <div className='grid grid-cols-1 lg:grid-cols-4 gap-4 px-4 mb-10'>
+                {
+                    allApps.map(app => <AppCard key={app.id} app={app}></AppCard>)
+                }
             </div>
         </div>
     );

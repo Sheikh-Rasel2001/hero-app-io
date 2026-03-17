@@ -1,9 +1,10 @@
 import React, { use } from 'react';
 import TrendApp from './TrendApp';
 import './Trend.css';
+import { Link } from 'react-router';
 
-const TrendingApps = ({appsPromise}) => {
-    const apps = use(appsPromise);
+const TrendingApps = ({ promiseApps }) => {
+    const apps = use(promiseApps);
     // console.log(apps);
     const homeApps = apps.slice(0, 8);
     return (
@@ -18,9 +19,11 @@ const TrendingApps = ({appsPromise}) => {
                 }
             </div>
             <div className='mt-10 flex justify-center items-center'>
-                <button className='btn-bg px-5 py-2 text-white font-semibold rounded-lg'>Show All</button>
+                <Link to='/apps'>
+                    <button className='btn-bg px-5 py-2 text-white font-semibold rounded-lg'>Show All</button>
+                </Link>
             </div>
-            
+
         </div>
     );
 };

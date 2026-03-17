@@ -1,12 +1,11 @@
 import React from 'react';
-import downloadIcon from '../../assets/icon-downloads.png';
-import rattingIcon from '../../assets/icon-ratings.png';
+import downloadIcon from '../../../assets/icon-downloads.png';
+import rattingIcon from '../../../assets/icon-ratings.png'
 
 const AppCard = ({app}) => {
-    console.log(app);
     const {image, title, ratingAvg, downloads} = app;
     return (
-         <div className='bg-white border-gray-200 hover:shadow-xl p-4 rounded-lg space-y-4'>
+        <div className='bg-white border-gray-200 hover:shadow-xl p-4 rounded-lg space-y-4'>
                     <div className='w-full rounded-lg'>
                         <img src={image} alt={title} className='w-full object-cover rounded-xl'/>
                     </div>
