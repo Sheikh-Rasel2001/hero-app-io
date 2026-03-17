@@ -3,22 +3,24 @@ import { useLoaderData, useParams } from 'react-router';
 import download from '../../assets/icon-downloads.png';
 import ratting from '../../assets/icon-ratings.png';
 import reviewsImage from '../../assets/icon-review.png';
+import Rechart from './Rechart';
 
 const AppDetails = () => {
     const { id } = useParams()
     const appDetails = useLoaderData();
     const appData = appDetails.find(app => app.id === parseInt(id));
-    const { image, title, companyName, downloads, ratingAvg, reviews, size } = appData;
+    const { image, title, companyName, downloads, ratingAvg, reviews, size, ratings } = appData;
     // console.log(appData);
     const details = [
         { _id: 1, img: download, name: 'Downloads', overView: downloads, total: 'M' },
         { _id: 2, img: ratting, name: 'Ratting', overView: ratingAvg, total: '' },
         { _id: 1, img: reviewsImage, name: 'Reviews', overView: reviews, total: 'K'},
     ]
+    const reversedRatings = [...ratings].reverse();
     return (
         <div className='max-w-6xl mx-auto my-10'>
             {/* apps details */}
-            <div className='flex gap-8 flex-col lg:flex-row items-center lg:items-start'>
+            <div className='flex gap-8 flex-col lg:flex-row items-center lg:items-start pb-8 border-b border-b-gray-300'>
                 {/* app image */}
                 <div className='w-40 h-40 lg:h-64 lg:w-64'>
                     <img src={image} alt={title} className='w-full h-full rounded-lg' />
@@ -45,7 +47,11 @@ const AppDetails = () => {
                    </div>
                 </div>
             </div>
-
+            {/* Rechart */}
+            <div className='my-8'>
+                <h1 className='text-2xl text-[#001931] font-bold mb-2'>Ratings</h1>
+                <Rechart ratings={reversedRatings}></Rechart>
+            </div>
         </div>
     );
 };
