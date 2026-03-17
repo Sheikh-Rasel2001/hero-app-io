@@ -2,6 +2,7 @@ import React, { use } from 'react';
 import TrendApp from './TrendApp';
 import './Trend.css';
 import { Link } from 'react-router';
+import AppCard from '../../Apps/AppCard/AppCard';
 
 const TrendingApps = ({ promiseApps }) => {
     const apps = use(promiseApps);
@@ -15,7 +16,7 @@ const TrendingApps = ({ promiseApps }) => {
             </div>
             <div className='mt-8 grid grid-cols-1 lg:grid-cols-4 gap-4 px-4'>
                 {
-                    homeApps.map(app => <TrendApp app={app} key={app.id}></TrendApp>)
+                    homeApps.map(app => <AppCard key={app.id} app={app}></AppCard>)
                 }
             </div>
             <div className='mt-10 flex justify-center items-center'>
