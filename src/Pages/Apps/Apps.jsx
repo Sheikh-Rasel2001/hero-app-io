@@ -1,8 +1,10 @@
 import React, { use, useState } from 'react';
 import { CiSearch } from "react-icons/ci";
 import AppCard from './AppCard/AppCard';
+import SearchError from './AppCard/SearchError';
+import { DiVim } from 'react-icons/di';
 
-const Apps = ({promiseApps}) => {
+const Apps = ({ promiseApps }) => {
     const [search, setSearch] = useState('');
     const allApps = use(promiseApps);
     const searchApps = allApps.filter(app => app.title.toLowerCase().includes(search.toLowerCase()));
@@ -19,25 +21,30 @@ const Apps = ({promiseApps}) => {
                 <p className='text-sm text-gray-400'>Explore All Apps on the Market developed by us. We code for Millions</p>
             </div>
             {/* search button */}
-            <div className='flex flex-col-reverse lg:justify-between items-center lg:flex-row mb-6'>
+            <div className='flex flex-col-reverse lg:justify-between items-center lg:flex-row mb-6 gap-4'>
                 <div>
-                    <p>({allApps.length}) App Found</p>
+                    <p className='font-semibold text-gray-400'>({allApps.length}) App Found</p>
                 </div>
                 <div className='relative'>
-                    <input 
-                    onChange={handleSearch}
-                    type="search"
-                    name="search" 
-                    value={search}
-                    placeholder='Search Apps' 
-                    className='border rounded-lg py-1 pl-8' />
-                    <CiSearch className='absolute top-2 left-3' />
+                    <input
+                        onChange={handleSearch}
+                        type="search"
+                        name="search"
+                        value={search}
+                        placeholder='Search Apps'
+                        className='border border-gray-400 rounded-lg py-1 pl-8 pr-4' />
+                    <CiSearch className='absolute top-2 left-3 text-lg font-semibold' />
                 </div>
             </div>
             {/* all apps */}
             <div className='grid grid-cols-1 lg:grid-cols-4 gap-4 mb-10'>
                 {
-                    searchApps.map(app => <AppCard key={app.id} app={app}></AppCard>)
+                    searchApps.length > 0 ?
+                        (searchApps.map(app => <AppCard key={app.id} app={app}></AppCard>)) : (
+                            <div className='col-span-full'> 
+                                <SearchError></SearchError>
+                            </div>
+                        )
                 }
             </div>
         </div>

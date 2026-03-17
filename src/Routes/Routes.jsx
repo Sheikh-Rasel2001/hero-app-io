@@ -11,7 +11,7 @@ const promiseApps = fetch('/apps.json').then(res => res.json());
 export const router = createBrowserRouter([
     {
         path: '/',
-        Component: Root,
+        element: <Root></Root>,
         errorElement: <ErrorPage></ErrorPage>,
         children: [
             {
@@ -28,7 +28,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: 'installs',
-                Component: Installs
+                element: <Installs></Installs>
             }
         ]
     }

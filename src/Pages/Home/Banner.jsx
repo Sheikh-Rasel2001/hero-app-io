@@ -14,13 +14,14 @@ const Banner = () => {
                 <p className='max-w-4xl mx-auto text-gray-400 mb-8 px-4'>At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
                 {/* button */}
                 <div className='flex flex-col justify-center items-center lg:flex-row gap-5 mb-10'>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="https://play.google.com/store/apps?hl=en" target="_blank" rel="noopener noreferrer">
                         <button className='flex items-center gap-2 px-4 py-2 border rounded-lg border-gray-400 font-semibold cursor-pointer'>
                             <img src={imagePlay} alt="Google Play" className='w-8 h-8'/>
                             <span className='text-lg text-[#001931]'>Google Play</span>
                         </button>
                     </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.apple.com/app-store/" 
+                    target="_blank" rel="noopener noreferrer">
                         <button className='flex items-center gap-2 px-4 py-2 border rounded-lg border-gray-400 font-semibold cursor-pointer'>
                             <img src={imageApp} alt="App Store" className='w-8 h-8'/>
                             <span className='text-lg text-[#001931]'>App Store</span>

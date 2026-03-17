@@ -19,8 +19,8 @@ const TrendingApps = ({ promiseApps }) => {
                 }
             </div>
             <div className='mt-10 flex justify-center items-center'>
-                <Link to='/apps'>
-                    <button className='btn-bg px-5 py-2 text-white font-semibold rounded-lg'>Show All</button>
+                <Link to='/'>
+                    <button className='btn-bg px-5 py-2 text-white font-semibold rounded-lg cursor-pointer'>Show All</button>
                 </Link>
             </div>
 
