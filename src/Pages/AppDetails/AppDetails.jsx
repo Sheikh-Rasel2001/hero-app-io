@@ -9,12 +9,12 @@ const AppDetails = () => {
     const { id } = useParams()
     const appDetails = useLoaderData();
     const appData = appDetails.find(app => app.id === parseInt(id));
-    const { image, title, companyName, downloads, ratingAvg, reviews, size, ratings } = appData;
+    const { image, title, companyName, downloads, ratingAvg, reviews, size, ratings, description } = appData;
     // console.log(appData);
     const details = [
         { _id: 1, img: download, name: 'Downloads', overView: downloads, total: 'M' },
         { _id: 2, img: ratting, name: 'Ratting', overView: ratingAvg, total: '' },
-        { _id: 1, img: reviewsImage, name: 'Reviews', overView: reviews, total: 'K'},
+        { _id: 1, img: reviewsImage, name: 'Reviews', overView: reviews, total: 'K' },
     ]
     const reversedRatings = [...ratings].reverse();
     return (
@@ -40,17 +40,22 @@ const AppDetails = () => {
                                 <h3 className='text-2xl text-[#001931] font-bold'>{detail.overView}{detail.total}</h3>
                             </div>)
                         }
-                   </div>
-                   {/* install button */}
-                   <div className='mt-5'>
+                    </div>
+                    {/* install button */}
+                    <div className='mt-5'>
                         <button className='px-4 py-2 rounded-lg bg-[#00d390] text-gray-50'>Install Now ({size}MB)</button>
-                   </div>
+                    </div>
                 </div>
             </div>
             {/* Rechart */}
-            <div className='my-8'>
-                <h1 className='text-2xl text-[#001931] font-bold mb-2'>Ratings</h1>
+            <div className='my-8 border-b pb-8 border-b-gray-300'>
+                <h1 className='text-2xl text-[#001931] font-bold mb-2 px-4 lg:px-0'>Ratings</h1>
                 <Rechart ratings={reversedRatings}></Rechart>
+            </div>
+            {/* description */}
+            <div>
+                <h1 className='text-2xl text-[#001931] font-bold mb-2 px-4 lg:px-0'>Description</h1>
+                <p className='text-gray-500 text-justify px-4 lg:px-0'>{description}</p>
             </div>
         </div>
     );
