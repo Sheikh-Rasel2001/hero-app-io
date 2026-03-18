@@ -4,7 +4,7 @@ import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recha
 const Rechart = ({ ratings }) => {
     return (
         <div className='w-full h-64'>
-            <ResponsiveContainer>
+            <ResponsiveContainer width="100%" height="100%">
                 <BarChart
                     layout='vertical'
                     data={ratings}

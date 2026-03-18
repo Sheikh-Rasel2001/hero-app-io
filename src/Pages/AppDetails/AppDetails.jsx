@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import download from '../../assets/icon-downloads.png';
 import ratting from '../../assets/icon-ratings.png';
 import reviewsImage from '../../assets/icon-review.png';
 import Rechart from './Rechart';
+import { toast } from 'react-toastify';
 
 const AppDetails = () => {
     const { id } = useParams()
@@ -14,9 +15,30 @@ const AppDetails = () => {
     const details = [
         { _id: 1, img: download, name: 'Downloads', overView: downloads, total: 'M' },
         { _id: 2, img: ratting, name: 'Ratting', overView: ratingAvg, total: '' },
-        { _id: 1, img: reviewsImage, name: 'Reviews', overView: reviews, total: 'K' },
+        { _id: 3, img: reviewsImage, name: 'Reviews', overView: reviews, total: 'K' },
     ]
     const reversedRatings = [...ratings].reverse();
+
+    // handle Installation and save localStorage
+    const [installed, setInstalled] = useState(() => {
+        const storedApps = JSON.parse(localStorage.getItem('installedApps')) || [];
+        return storedApps.includes(parseInt(id));
+    });
+
+    const handleInstall = () => {
+        const storedApps = JSON.parse(localStorage.getItem('installedApps')) || [];
+
+        if (storedApps.includes(appData.id)) {
+            toast.warning('Already Installed');
+            return
+        }
+        const updateApps = [...storedApps, appData.id]
+        const setApps = JSON.stringify(updateApps);
+        localStorage.setItem('installedApps', setApps);
+        setInstalled(true);
+        toast.success('Apps Install Successfully')
+    }
+
     return (
         <div className='max-w-6xl mx-auto my-10'>
             {/* apps details */}
@@ -43,7 +65,13 @@ const AppDetails = () => {
                     </div>
                     {/* install button */}
                     <div className='mt-5'>
-                        <button className='px-4 py-2 rounded-lg bg-[#00d390] text-gray-50'>Install Now ({size}MB)</button>
+                        <button
+                            onClick={handleInstall}
+                            className='px-4 py-2 rounded-lg bg-[#00d390] text-gray-50'>
+                            {
+                                installed ? 'Installed' : `Install Now (${size}MB)`
+                            }
+                        </button>
                     </div>
                 </div>
             </div>
