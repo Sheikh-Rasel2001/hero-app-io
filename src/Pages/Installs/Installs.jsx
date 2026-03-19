@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router';
 import Uninstall from './Uninstall';
+import SearchError from '../Apps/AppCard/SearchError';
+import { toast } from 'react-toastify';
 
 const Installs = () => {
     const allApps = useLoaderData();
@@ -13,24 +15,61 @@ const Installs = () => {
         setInstalledApps(filteredApps)
     }, [allApps]);
 
+    // handle uninstall 
+    const handleUninstall = (id) => {
+        const storedId = JSON.parse(localStorage.getItem('installedApps')) || [];
+        const updateId = storedId.filter(appId => appId !== id);
+        const remainingApp = JSON.stringify(updateId);
+        localStorage.setItem('installedApps', remainingApp);
+
+        setInstalledApps((prev => prev.filter(app => app.id !== id)));
+        toast('Apps Uninstall Successfully');
+    }
+
+    // handle sort 
+    const [sort, setSort] = useState('');
+    const handleSort = (e) => {
+        const sortValue = e.target.value;
+        setSort(sortValue);
+
+        if (!sortValue) {
+            return
+        }
+
+        const sorted = [...installedApps];
+
+        if (sort === 'low') {
+            sorted.sort((a, b) => b.size - a.size)
+        }
+        else if (sort === 'high') {
+            sorted.sort((a, b) => a.size - b.size)
+        }
+        setInstalledApps(sorted);
+    }
+
     return (
         <div className='max-w-6xl mx-auto my-10'>
             <div className='text-center mb-6'>
                 <h1 className='text-4xl text-[#001931] font-bold mb-2 px-4 lg:px-0'>Your Installed Apps</h1>
-                <p className='text-gray-500'>Explore All Trending Apps on the Market developed by us</p>
+                <p className='text-gray-500 px-2 text-sm lg:text-lg'>Explore All Trending Apps on the Market developed by us</p>
             </div>
             {/* sort */}
-            <div className='flex flex-col-reverse lg:flex-row lg:
-            justify-between items-center mb-4'>
+            <div className='flex justify-between items-center mb-4 px-4'>
                 <p className='text-[#001931] text-lg'>{installedApps.length} Apps Found</p>
-                <div>sorted</div>
+                <div>
+                    <select onChange={handleSort} className='px-3 py-1 rounded-lg border border-gray-400 text-lg text-gray-500'>
+                        <option value="">Sort By</option>
+                        <option value="low">Low-High</option>
+                        <option value="high">High-Low</option>
+                    </select>
+                </div>
             </div>
             {/* installed apps */}
-            <div className='space-y-4'>
+            <div className='space-y-4 px-2'>
                 {
-                    installedApps.length === 0 ? 
-                    <p>Apps not found</p> :
-                    installedApps.map(apps => <Uninstall key={apps.id} apps={apps}></Uninstall>)
+                    installedApps.length === 0 ?
+                        <SearchError></SearchError> :
+                        installedApps.map(apps => <Uninstall handleUninstall={handleUninstall} key={apps.id} apps={apps}></Uninstall>)
                 }
             </div>
 
