@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import { useLoaderData, useParams } from 'react-router';
+import { Link, useLoaderData, useParams } from 'react-router';
 import download from '../../assets/icon-downloads.png';
 import ratting from '../../assets/icon-ratings.png';
 import reviewsImage from '../../assets/icon-review.png';
 import Rechart from './Rechart';
 import { toast } from 'react-toastify';
+import { FaArrowLeftLong } from 'react-icons/fa6';
 
 const AppDetails = () => {
     const { id } = useParams()
@@ -41,9 +42,16 @@ const AppDetails = () => {
 
     return (
         <div className='max-w-6xl mx-auto my-10'>
+            <div className='px-4 mb-4'>
+                <Link to='/apps'>
+                <h4 className='text-2xl font-bold text-[#001931]'><FaArrowLeftLong /></h4>
+                </Link>
+            </div>
+
             {/* apps details */}
-            <div className='flex gap-8 flex-col lg:flex-row items-center lg:items-start pb-8 border-b border-b-gray-300'>
+            <div className='flex gap-8 flex-col lg:flex-row items-center            lg:items-start pb-8 border-b border-b-gray-300'>
                 {/* app image */}
+
                 <div className='w-40 h-40 lg:h-64 lg:w-64'>
                     <img src={image} alt={title} className='w-full h-full rounded-lg' />
                 </div>
@@ -84,6 +92,11 @@ const AppDetails = () => {
             <div>
                 <h1 className='text-2xl text-[#001931] font-bold mb-2 px-4 lg:px-0'>Description</h1>
                 <p className='text-gray-500 text-justify px-4 lg:px-0'>{description}</p>
+            </div>
+            <div className='text-center mt-10'>
+                <Link to='/installs'>
+                    <button className='btn btn-bg text-white text-lg font-semibold rounded-lg'>Go For Uninstall</button>
+                </Link>
             </div>
         </div>
     );

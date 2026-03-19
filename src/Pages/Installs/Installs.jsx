@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useLoaderData } from 'react-router';
+import { Link, useLoaderData } from 'react-router';
 import Uninstall from './Uninstall';
 import SearchError from '../Apps/AppCard/SearchError';
 import { toast } from 'react-toastify';
@@ -72,7 +72,11 @@ const Installs = () => {
                         installedApps.map(apps => <Uninstall handleUninstall={handleUninstall} key={apps.id} apps={apps}></Uninstall>)
                 }
             </div>
-
+            <div className='text-center mt-10'>
+                <Link to='/apps'>
+                <button className='btn btn-bg text-white text-lg font-semibold rounded-lg'>All Apps</button>
+                </Link>
+            </div>
         </div>
     );
 };
