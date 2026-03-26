@@ -32,9 +32,7 @@ const Installs = () => {
         const sortValue = e.target.value;
         setSort(sortValue);
 
-        if (!sortValue) {
-            return
-        }
+        if (!sortValue) return;
 
         const sorted = [...installedApps];
 
@@ -57,7 +55,7 @@ const Installs = () => {
             <div className='flex justify-between items-center mb-4 px-4'>
                 <p className='text-[#001931] text-lg'>{installedApps.length} Apps Found</p>
                 <div>
-                    <select onChange={handleSort} className='px-3 py-1 rounded-lg border border-gray-400 text-lg text-gray-500'>
+                    <select onChange={handleSort} className='px-3 py-1 rounded-lg text-lg text-gray-500 bg-white shadow-2xl'>
                         <option value="">Sort By</option>
                         <option value="low">Low-High</option>
                         <option value="high">High-Low</option>
